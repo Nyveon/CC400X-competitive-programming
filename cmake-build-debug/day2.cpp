@@ -41,7 +41,14 @@ int main() {
 
 
     // -- Part 2 --
-    
+    valid_passwords = 0;
+    for (int i = 0; i < 1000; i++) {
+        if ((passwords[i][max_char[i]-1] == characters[i]) ^ (passwords[i][min_char[i]-1] == characters[i])) {
+            valid_passwords++;
+        }
+    }
+    // Output
+    cout << "Part 2: " << valid_passwords << "\n";
 
 
 
