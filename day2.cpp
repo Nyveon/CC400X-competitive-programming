@@ -6,6 +6,7 @@ using namespace std;
 
 // Nyveon
 // Advent of code 2020
+// Day 2
 
 int main() {
 
