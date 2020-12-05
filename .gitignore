@@ -24,3 +24,14 @@ cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c
 *.manifest
 *.rc
 *.res
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
