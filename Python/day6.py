@@ -1,6 +1,6 @@
 # Nyveon
 # Advent of code 2020
-# Day 5
+# Day 6
 # Python 3
 
 # Input
