@@ -4,3 +4,5 @@ Advent of Code 2020 https://adventofcode.com/
 Days [1, 2, 3] C++
 
 Days [4, 5, 6, 7, 8, 9, 10] Python
+
+Visualizations: GMS 2.3
