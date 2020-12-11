@@ -52,37 +52,30 @@ def look(lines, x_dir, y_dir, x, y, distance):
     return c
 
 # Main function, simulates one cycle of the cells.
+cardinal_x = [0, 0, -1, 1, -1, 1, 1, -1]
+cardinal_y = [-1, 1, 0, 0, -1, -1, 1, 1]
+
 def cycle(lines, distance, tolerance):
     new_lines = []
     for y in range(len(lines)):
         line = ""
         for x in range(len(lines[y])):
             if lines[y][x] == "L":
-                n = look(lines, 0, -1, x, y, distance)
-                s = look(lines, 0, 1, x, y, distance)
-                e = look(lines, -1, 0, x, y, distance)
-                w = look(lines, 1, 0, x, y, distance)
-                ne = look(lines, -1, -1, x, y, distance)
-                nw = look(lines, 1, -1, x, y, distance)
-                se = look(lines, 1, 1, x, y, distance)
-                sw = look(lines, -1, 1, x, y, distance)
+                c = 0
+                for i in range(8):
+                    c += look(lines, cardinal_x[i], cardinal_y[i], x, y, distance)
 
-                if (n + s + e + w + nw + ne + sw + se) == 0:
+                if c == 0:
                     line = line + "#"
                 else:
                     line = line + lines[y][x]
 
             elif lines[y][x] == "#":
-                n = look(lines, 0, -1, x, y, distance)
-                s = look(lines, 0, 1, x, y, distance)
-                e = look(lines, -1, 0, x, y, distance)
-                w = look(lines, 1, 0, x, y, distance)
-                ne = look(lines, -1, -1, x, y, distance)
-                nw = look(lines, 1, -1, x, y, distance)
-                se = look(lines, 1, 1, x, y, distance)
-                sw = look(lines, -1, 1, x, y, distance)
+                c = 0
+                for i in range(8):
+                    c += look(lines, cardinal_x[i], cardinal_y[i], x, y, distance)
 
-                if (n + s + e + w + nw + ne + sw + se) >= tolerance:
+                if c >= tolerance:
                     line = line + "L"
                 else:
                     line = line + lines[y][x]
