@@ -12,5 +12,6 @@ if state == 2 {
 		target_y -= 4;
 		state = 3;
 		connected = true;
+		audio_play_sound(d_Plug, 1, 0);
 	}
 }

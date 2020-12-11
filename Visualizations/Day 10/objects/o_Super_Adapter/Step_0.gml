@@ -10,5 +10,6 @@ if state == 2 {
 		state = 3;
 		connected = true;
 		joltage = future_joltage;
+		audio_play_sound(d_Plug, 1, 0);
 	}
 }
