@@ -35,3 +35,5 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+# Ignore .yy files (for GMS 2 projects)
+*.yy linguist-vendored
