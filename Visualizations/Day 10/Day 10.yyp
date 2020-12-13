@@ -10,6 +10,7 @@
     {"id":{"name":"o_Adapter","path":"objects/o_Adapter/o_Adapter.yy",},"order":1,},
     {"id":{"name":"o_Base2","path":"objects/o_Base2/o_Base2.yy",},"order":3,},
     {"id":{"name":"s_Base2","path":"sprites/s_Base2/s_Base2.yy",},"order":3,},
+    {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":6,},
     {"id":{"name":"d_Click","path":"sounds/d_Click/d_Click.yy",},"order":1,},
     {"id":{"name":"o_Main","path":"objects/o_Main/o_Main.yy",},"order":0,},
     {"id":{"name":"s_Pins","path":"sprites/s_Pins/s_Pins.yy",},"order":2,},
