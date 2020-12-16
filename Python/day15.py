@@ -28,12 +28,14 @@ last_spoken = lines[len(lines) - 1]
 while turn < 2020:
     turn += 1
     value = memory[last_spoken]
+
     if value[1] == 0:
         last_spoken = 0
     else:
         last_spoken = value[0] - value[1]
     if last_spoken not in memory:
         memory[last_spoken] = [turn, 0]
+
     memory[last_spoken][1] = memory[last_spoken][0]
     memory[last_spoken][0] = turn
 print("Part 1:", last_spoken)
@@ -52,16 +54,14 @@ last_spoken = lines[len(lines) - 1]
 while turn < 30000000:
     turn += 1
     value = memory[last_spoken]
+
     if value[1] == 0:
         last_spoken = 0
     else:
         last_spoken = value[0] - value[1]
     if last_spoken not in memory:
         memory[last_spoken] = [turn, 0]
+
     memory[last_spoken][1] = memory[last_spoken][0]
     memory[last_spoken][0] = turn
 print("Part 2:", last_spoken)
-
-
-
-
