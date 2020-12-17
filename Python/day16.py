@@ -4,11 +4,12 @@
 # Python 3
 
 # -- Input --
-#file = open("day16_input.txt", "r")
-file = open("test.txt", "r")
+file = open("day16_input.txt", "r")
+#file = open("test.txt", "r")
 file_in = file.read()[:-1]
 file.close()
 lines = file_in.split("\n\n")
+import random
 
 
 # -- Part 1 --
@@ -35,7 +36,6 @@ for i in range(len(tickets)):
         tickets[i][j] = int(tickets[i][j])
 
 fields = len(tickets[0])
-print(rules)
 
 # Main solver
 invalid_values = []
@@ -55,35 +55,60 @@ for i in range(len(tickets)):
 scanning_error = 0
 for i in invalid_values:
     scanning_error += i
-print(invalid_values)
-print(invalid_indexes)
 print("Part 1:", scanning_error)
 
 
 # -- Part 2 --
 # Finish later
 # Input parsing
+
+# Remove invalid tickets
+tickets_new = []
+for i in range(len(tickets)):
+    if i not in invalid_indexes:
+        tickets_new.append(tickets[i])
+tickets = tickets_new
+
+# Make dictionary of rules
 rules_keys = lines[0].split("\n")
 rules_dict = {}
 for i in range(len(rules_keys)):
     rules_dict[rules_keys[i].split(":")[0]] = rules[i]
-
+field_map = []
 for i in range(fields):
-    print("Field:", i)
-    for j in range(len(tickets)):
-        print("Value:", tickets[j][i])
-        for key in rules_dict:
-            print(key)
-            found_key = key
-            rule_found = True
-            print(rules_dict[key])
-            if (rules_dict[key][0] <= tickets[j][i] <= rules_dict[key][1]) or (rules_dict[key][2] <= tickets[j][i] <= rules_dict[key][3]):
-                print("stinky")
-                rule_found = False
+    field_map.append([])
+
+# Find corresponding rules
+for field in range(fields): # For each field
+    for key in rules_dict: # For each rule
+        corresponds = True
+        for ticket in range(len(tickets)): # For each ticket
+            if not ((rules_dict[key][0] <= tickets[ticket][field] <= rules_dict[key][1]) or (rules_dict[key][2] <= tickets[ticket][field] <= rules_dict[key][3])):
+                corresponds = False
                 break
-        if rule_found:
-            print("Rule found, key:", found_key)
+        if corresponds:
+            field_map[field].append(key)
 
-    print("----")
+# Find the right combination of potential fields so that each one is unique
+field_map_final = []
+for i in range(fields):
+    field_map_final.append(0)
 
+removed_count = 0
+while removed_count < fields:
+    for i in range(len(field_map)):
+        if len(field_map[i]) == 1:
+            remover = field_map[i][0]
+            for j in range(len(field_map)):
+                if remover in field_map[j]:
+                    field_map[j].remove(remover)
+            field_map_final[i] = remover
+            field_map[i] = [0, 0]
+            removed_count += 1
+            break
 
+answer = 1
+for i in range(len(field_map_final)):
+    if "departure" in field_map_final[i]:
+        answer = answer * my_ticket[i]
+print("Part 2:", answer)
