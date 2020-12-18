@@ -78,7 +78,7 @@ class Equation_tree:
       return self.root.evaluate()
 
 
-print("Part 1:", evaluate_all(lines), 2743012121210)
+print("Part 1:", evaluate_all(lines))
 
 # -- Part 2 --
 
@@ -134,4 +134,4 @@ class Equation_tree:
       return self.root.evaluate()
 
 
-print("Part 2:", evaluate_all(lines), "65658760783597")
+print("Part 2:", evaluate_all(lines))
