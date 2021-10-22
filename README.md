@@ -1,5 +1,12 @@
-# advent-of-code-2020
-Advent of Code 2020 https://adventofcode.com/
+# Competitive Programming
+
+I'm not much of a competitive programmer, but I do like participating in things from time to time c:
+
+
+
+
+
+###Advent of Code 2020 https://adventofcode.com/
 
 Days [1, 2, 3] C++
 
