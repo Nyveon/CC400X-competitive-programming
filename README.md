@@ -3,7 +3,7 @@
 I'm not much of a competitive programmer, but I do like participating in things from time to time c:
 
 
-## CC4006-1 2021 Taller de Programación Competitiva B
+## 2021 | CC4006 - Taller de Programación Competitiva B
 
 | Judge | Problem | Assignment | Language |
 |-------|---------|------------|----------|
@@ -16,6 +16,13 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |Kattis|WiFi|Tarea 2 E|Python|
 |CodeForces|455A|Tarea 3 A|Python|
 
+## 2021 | CC4001 - Taller de Programación A
+
+*Files to be uploaded*
+
+## 2020 | CC4002 - Taller de Programación B
+
+*Files to be uploaded*
 
 ## Advent of Code 2020 https://adventofcode.com/
 
