@@ -15,6 +15,9 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |SPOJ|AGGRCOW|Tarea 2 B|Python|
 |Kattis|WiFi|Tarea 2 E|Python|
 |CodeForces|455A|Tarea 3 A|Python|
+|AtCoder|dp_b|Tarea 3 C|Python|
+|CodeForces|983B|Tarea 3 D|Python|
+|CodeForces|225C|Tarea 3 E|Python|
 
 ## 2021 | CC4001 - Taller de Programación A
 
