@@ -2,6 +2,11 @@
 
 I'm not much of a competitive programmer, but I do like participating in things from time to time c:
 
+## Advent of Code 2021 https://adventofcode.com/
+
+ - Days [1, 2, 3, 4] Python
+
+
 
 ## 2021 | CC4006 - Taller de Programación Competitiva B
 
