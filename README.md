@@ -21,6 +21,11 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |CodeForces|61E|Tarea 4 A|Python|
 |CodeForces|1234D|Tarea 4 B|Python|
 |SPOJ|RMQSQ|Tarea 4 C|Python|
+|SPOJ|NAJPF|Tarea 5 A|Python|
+|SPOJ|NAJPF|Tarea 5 A|Python 🏌️‍⛳|
+|CodeForces|7D|Tarea 5 B|Python|
+|SPOJ|ADACLEAN|Tarea 5 D|Python|
+|CodeForces|1147B|Tarea 5 E|Python|
 
 ## 2021 | CC4001 - Taller de Programación A
 
