@@ -42,6 +42,15 @@ I'm not much of a competitive programmer, but I do like participating in things 
 ### 2021 | CC4001 - Taller de Programación A
 
 *Files to be uploaded*
+Tareas CC4001			
+Tarea	Fecha Inicio	Fecha Final	Contest
+Sesión Práctica	-	-	https://vjudge.net/contest/428422
+1	30/03/2021	14/04/2021	https://vjudge.net/contest/430643
+2	20/04/2021	29/04/2021	https://vjudge.net/contest/434570
+3	05/05/2021	14/05/2021	https://vjudge.net/contest/437251
+4	26/05/2021	04/06/2021	https://vjudge.net/contest/440836
+5	09/06/2021	18/06/2021	https://vjudge.net/contest/442896
+6	06/07/2021	15/07/2021	https://vjudge.net/contest/445827
 
 ### Advent of Code 2020 https://adventofcode.com/
 
