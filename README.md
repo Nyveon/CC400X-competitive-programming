@@ -9,6 +9,10 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |CodeForces|71A|Tarea 0 B|Python|
 |CodeForces|677A|Tarea 0 C|Python|
 |CodeForces|1549A|Tarea 0 D|Python|
+|CodeForces|879B|Tarea 0 A|Python|
+|CodeForces|1165B|Tarea 0 B|Python|
+|Kattis|GuessTheDataStructure|Tarea 0 C|C++|
+|CodeForces|1006C|Tarea 0 E|Python|
 
 
 ### Advent of Code 2021 https://adventofcode.com/
