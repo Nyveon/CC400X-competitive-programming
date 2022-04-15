@@ -13,6 +13,10 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |CodeForces|1165B|Tarea 1 B|Python|
 |Kattis|GuessTheDataStructure|Tarea 1 C|C++|
 |CodeForces|1006C|Tarea 1 E|Python|
+|CodeForces|1037D|Tarea 2 A|Python|
+|CodeForces|263D|Tarea 2 B|Python|
+|CodeForces|500A|Tarea 2 C|Python|
+|CodeForces|194C|Tarea 2 E|Python|
 
 
 ### Advent of Code 2021 https://adventofcode.com/
