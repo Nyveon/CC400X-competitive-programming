@@ -2,7 +2,26 @@
 
 I'm not much of a competitive programmer, but I do like participating in things from time to time c:
 
-### 2022 | CC4005 - Taller de Programación Competitiva A
+## 2022
+
+### Meta Global Hackathon 2022
+
+- [Overview](./2022-2%20-%20Meta%20Global%20Hackathon/overview.md)
+
+| Problem | Language |
+| --- | --- |
+| [Rollercoasters](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%200/challenge0.md) | Python |
+| [ZigZag](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%201/challenge1.md) | Python |
+| [Data Centers](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%202/challenge2.md) | C++ |
+| [Wanikani](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%203%20(precision%20issues)/challenge3.md) | Python |
+| [Commercial Operations](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%204/challenge4.md) | Python |
+| [Promotions](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%205%20(precision%20issues)/challenge5.md) | C++ |
+| [CI Pipelines](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%206/challenge6.md) | Python |
+| [Micro Kitchens](2022-2%20-%20Meta%20Global%20Hackathon/Challenge%207/challenge7.md) | Python |
+| [Linux Challenge](2022-2%20-%20Meta%20Global%20Hackathon/Linux%20Challenge/linux.md) | Bash |
+
+### CC4005 - Taller de Programación Competitiva A
+
 | Judge | Problem | Assignment | Language |
 |-------|---------|------------|----------|
 |CodeForces|4A|Tarea 0 A|Python|
@@ -18,12 +37,13 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |CodeForces|500A|Tarea 2 C|Python|
 |CodeForces|194C|Tarea 2 E|Python|
 
+## 2021
 
-### Advent of Code 2021 https://adventofcode.com/
+### Advent of Code 2021 <https://adventofcode.com/>
 
- - Days [1, 2, 3, 4] Python
+- Days [1, 2, 3, 4] Python
 
-### 2021 | CC4006 - Taller de Programación Competitiva B
+### CC4006 - Taller de Programación Competitiva B
 
 | Judge | Problem | Assignment | Language |
 |-------|---------|------------|----------|
@@ -47,31 +67,31 @@ I'm not much of a competitive programmer, but I do like participating in things 
 |SPOJ|ADACLEAN|Tarea 5 D|Python|
 |CodeForces|1147B|Tarea 5 E|Python|
 
-### 2021 | CC4001 - Taller de Programación A
+### CC4001 - Taller de Programación A
 
-*Files to be uploaded*
+*Files to be uploaded...*
 
-0)	https://vjudge.net/contest/428422
+0) <https://vjudge.net/contest/428422>
 
-1)	https://vjudge.net/contest/430643
+1) <https://vjudge.net/contest/430643>
 
-2)	https://vjudge.net/contest/434570
+2) <https://vjudge.net/contest/434570>
 
-3) https://vjudge.net/contest/437251
+3) <https://vjudge.net/contest/437251>
 
-4)	https://vjudge.net/contest/440836
+4) <https://vjudge.net/contest/440836>
 
-5)	https://vjudge.net/contest/442896
+5) <https://vjudge.net/contest/442896>
 
-6)	https://vjudge.net/contest/445827
+6) <https://vjudge.net/contest/445827>
 
+## 2020
 
-### Advent of Code 2020 https://adventofcode.com/
+### Advent of Code 2020 <https://adventofcode.com/>
 
- - Days [1, 2, 3] C++
- - Days [4, 5, 6, 7, 8, 9, 10, 11, 12, 13p1, 14, 15, 16, 17] Python
+- Days [1, 2, 3] C++
+- Days [4, 5, 6, 7, 8, 9, 10, 11, 12, 13p1, 14, 15, 16, 17] Python
 
-### 2020 | CC4002 - Taller de Programación B
+### CC4002 - Taller de Programación B
 
-*Files to be uploaded*
-
+*Files to be uploaded...*
