@@ -3,6 +3,7 @@
 
 # 5s add one 0
 
-print(int(input()) // 5)
+n = 10
 
-# wrong answer, todo later
+for i in range(n - 1, -1, -1):
+    print(i)
